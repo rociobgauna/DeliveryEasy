@@ -1,0 +1,267 @@
+body {
+    background: #F5F6FA;
+}
+/*----HEADER------*/
+header {
+    background: #fff;
+    width: 100%;
+    height: 6rem;
+}
+.p_dashboard {
+    color: #0E294A;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: 600;
+    position: relative;
+    left:1.5rem;
+    top: 3px;
+}
+.contenedor_deliveryeasy {
+    position: relative;
+    left: -1.5rem;
+}
+.contenedor__dash {
+    width: 100%;
+    height: 65px;
+    border-right: solid 1px rgb(122, 122, 122,0.1);
+    position: relative;
+    left: 1rem;
+}
+.boton_facturacion {
+    width: 5rem;
+    height: 2.7rem;
+    background: #2E4DD4;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: none;
+    position: relative;
+    left: -1.8rem;
+}
+.p_facturacion {
+    color: rgb(255, 255, 255);
+    opacity: 86%;
+    position: relative;
+    top: 3px;
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+.caja_btn {
+    border-radius: 0.9rem;
+    border: solid 1px #91A9C06B;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+.contenedor_btn {
+    position: relative;
+    left: -2.5rem;
+}
+.icono_notificacion {
+    position: relative;
+    top: -0.1rem;
+}
+.img_perfil {
+    width: 3rem;
+    height: 3rem;
+}
+.puntos {
+    width: 1.5rem;
+    height: 1rem;
+}
+.p_logout {
+    font-size: 1rem;
+    color: #2E4765;
+    opacity: 50%;
+}
+.contenedor_perfil {
+    position: relative;
+    left: -4.5rem;
+}
+.contenedor__nav {
+    position: relative;
+    left: 4rem;
+}
+/*----MENU------*/
+.contenedor_menu {
+    width: 100%;
+    height: 12rem;
+    background: #2E4DD4;
+}
+.contenedor__secciones__menu {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50%;
+    height: 4rem;
+    border-radius: 5px;
+    position: relative;
+    top: 1.9rem;
+    left: 0.2rem;
+}
+
+.circulo_verde {
+    height: 0.3rem;
+    width: 0.3rem;
+    background: #31B10A;
+    border-radius: 50px;
+    position: relative;
+    top: 1.7rem;
+    left: 1px;
+}
+.p__menu {
+    color: rgb(255, 255, 255);
+    opacity: 86%;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 100;
+}
+.menu_active::before{
+    content: "";
+    width: 156px;
+    height: 65px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.p_menu__active {
+    color: #ffff;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+}
+.img_menu {
+    width: 26px;
+    height: 26px;
+}
+.img_menu_dos {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.img_menu_tres {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 11px;
+}
+.img_menu_cuatro {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 1px;
+}
+.img_menu_cinco {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 2px;
+}
+.img_menu_seis {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -2px;
+}
+/*-----MAIN-----*/
+.contenedor__ventas, .contenedor__ingresos, .contenedor__web {
+    width: 255px;
+    height: 125px;
+    border-radius: 15px 15px 15px 15px;
+    background: #fff;
+    position: relative;
+    left: -5px;
+}
+.contenedor__ingresos {
+    left: -33px;
+}
+.contenedor__web {
+    left: -63px;
+}
+.conenedor__registros {
+    position: relative;
+    top: -4.5rem;
+    left: -1.2rem;
+}
+.p_ventas,.p_ingresos,.p_web {
+    font-size: 14px;
+    color: #0E294A;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+.numeros {
+    font-size: 23px;
+    color: #0E294A;
+    font-family: 'Poppins';
+    position: relative;
+    top: -1rem; 
+}
+.p_numeros {
+    font-weight: 600;
+}
+.contenedor__img {
+    width: 55px;
+    height: 55px;
+    background: #0DCD94;
+    border-radius: 50px;
+    box-shadow: #00000029 0px 3px 6px;
+    position: relative;
+}
+.contenedor__img--ingresos {
+    background: #2E4DD4;
+    left: 0.6rem;
+}
+.contenedor__img--ventas {
+    left: 2rem;
+}
+.contenedor__img--web {
+    background: #657CDF;
+    left: 2rem;
+}
+.bolsa {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -3px;
+}
+.contenedo_arrow {
+    width: 20px;
+    height: 20px;
+    background: #E6FAF4;
+    border-radius: 50px;
+    box-shadow: #00000029 0px 3px 6px;
+}
+.contenedo_arrow--dos {
+    background: #E7EEFC;
+}
+.contenedo_arrow--tres {
+    background: rgb(243, 111, 111,0.2);  
+}
+.contenedor_porcentaje {
+    position: relative;
+    top: -1.5rem;
+}
+.p_porcentaje {
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    color: #17335B;
+    opacity: 42%;
+}
+.contenedor__dias {
+    background: #fff;
+    width: 93%;
+    height: 40px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    left: -1.5rem; 
+    top:-3.6rem;
+}
+.p_dias {
+    font-size:12px;
+    color: #2E4765;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.p__semana

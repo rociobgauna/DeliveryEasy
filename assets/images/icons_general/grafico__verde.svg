@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1068.701" height="232.342" viewBox="0 0 1068.701 232.342">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.999" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0ab178"/>
+      <stop offset="1" stop-color="#0ab178" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Oval" x="628.773" y="90.242" width="81.3" height="81.3" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#0ab178" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_8326" data-name="Grupo 8326" transform="translate(-62.852 -646.412)">
+    <g id="Group_42" data-name="Group 42" transform="translate(63.322 647.912)">
+      <path id="Path_3" data-name="Path 3" d="M0,93.062s15.18-4.7,25.3,10.177S57.348,141.6,81.8,136.9s34.577-36.794,39.637-61.845,27.83-32.879,38.794-28.965,16.867,9.394,24.457,39.142,40.481,28.182,58.191,28.182,26.144,18.788,42.167,21.137,36.264,12.525,53.974-32.879,54.818-42.274,70-36.011,37.951,5.48,70-37.577,64.938-26.617,71.685-15.657,20.24,72.8,52.288,83.764,35.421-1.566,48.071,14.091,39.637,45.4,70.841,15.657,65.781-100.2,110.478-100.2,48.071,42.274,71.685,49.319,26.144-2.349,42.167,18.005,40.481,43.839,62.408,28.182,33.734-34.445,59.034-25.051V230.842H0Z" opacity="0.157" fill="url(#linear-gradient)"/>
+      <path id="Line_4" data-name="Line 4" d="M.5.51V104.49" transform="translate(668.317 122.842)" fill="none" stroke="#0ab178" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_3_Copy" data-name="Path 3 Copy" d="M0,99.334S15.18,94.321,25.3,110.2s32.047,40.945,56.5,35.931,34.577-39.274,39.637-66.013,27.83-35.1,38.794-30.918,16.867,10.027,24.457,41.78,40.481,30.082,58.191,30.082,26.144,20.055,42.167,22.561,36.264,13.37,53.974-35.1,54.818-45.123,70-38.438,37.951,5.849,70-40.109,64.938-28.411,71.685-16.712,20.24,77.712,52.288,89.41,35.421-1.671,48.071,15.041,39.637,48.465,70.841,16.712S787.687,27.472,832.384,27.472s48.071,45.123,71.685,52.643,26.144-2.507,42.167,19.219,40.481,46.794,62.408,30.082,33.734-36.767,59.034-26.74" fill="none" stroke="#0ab178" stroke-miterlimit="10" stroke-width="3"/>
+      <g transform="matrix(1, 0, 0, 1, -0.47, -1.5)" filter="url(#Oval)">
+        <path id="Oval-2" data-name="Oval" d="M9,0A9,9,0,1,1,0,9,9,9,0,0,1,9,0Z" transform="translate(660.42 114.89)" fill="#0ab178" stroke="#fff" stroke-width="3.3"/>
+      </g>
+      <text id="_120_Tasks" data-name="120 Tasks" transform="translate(663.161 78.569)" fill="#0ab178" font-size="21" font-family="Rubik-Regular, Rubik"><tspan x="-17.325" y="0">120</tspan></text>
+    </g>
+  </g>
+</svg>

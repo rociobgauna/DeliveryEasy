@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.156" height="24.169" viewBox="0 0 27.156 24.169">
+  <defs>
+    <filter id="Oval" x="6.227" y="0" width="20.929" height="20.929" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#165ae3" flood-opacity="0.29"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2894" data-name="Grupo 2894" transform="translate(0 4.5)">
+    <path id="ic_notifications_24px" d="M12.069,22.169a2.023,2.023,0,0,0,2.017-2.017H10.052A2.017,2.017,0,0,0,12.069,22.169Zm6.052-6.052V11.074c0-3.1-1.654-5.689-4.539-6.375V4.013a1.513,1.513,0,0,0-3.026,0V4.7c-2.895.686-4.539,3.268-4.539,6.375v5.043L4,18.134v1.009H20.138V18.134Z" transform="translate(-1.546 -2.5)" fill="#2e4765"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(0 0)">
+      <g id="Group_3" data-name="Group 3" transform="translate(12.727 0)">
+        <g transform="matrix(1, 0, 0, 1, -12.73, -4.5)" filter="url(#Oval)">
+          <circle id="Oval-2" data-name="Oval" cx="3.965" cy="3.965" r="3.965" transform="translate(12.73 4.5)" fill="#165ae3" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(0 0.506)">
+        <path id="Path" d="M0,0H22.27V15.868H0Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

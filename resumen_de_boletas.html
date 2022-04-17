@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/pedidos.css">
+    <link rel="stylesheet" href="assets/css/boletas.css">
+    <title>Resumen de boletas</title>
+</head>
+<body>
+    <header class="">
+        <!-- Header top -->
+        <section class="contenedor__top__general container-fluid">
+            <div class="row justify-content-center align-items-center ">
+                <div class="col-10">
+                    <div class="row justify-content-center mb-2 mt-2">
+                        <div class="col-4 d-flex justify-content-start align-items-center">
+                            <img src="assets/images/icons_header/deliveryeasy.svg" alt="">
+                        </div>
+                        <div class="col-8 d-flex justify-content-end align-items-center">
+                            <div class="row">
+                                <!-- título -->
+                                <div class="col-3 d-flex justify-content-center align-items-center contendor__seccion">
+                                    <p class="contenedor__seccion__p1 mr-2">Resumen de boletas</p>
+                                </div>
+                                <!-- Botón -->
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+                                    <button class="boton__facturacion__general">Facturación</button>
+                                </div>
+                                <!-- Entradas -->
+                                <div class="col-3 d-flex justify-content-around align-items-center">
+                                    <button class="contenedor__entradas__general d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/icons_header/configuracion.svg" alt="">
+                                    </button>
+                                    <button class="contenedor__entradas__general d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/icons_header/imprimir.svg" alt="">
+                                    </button>
+                                    <button class="contenedor__entradas__general d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/icons_header/notificaciones.svg" alt="">
+                                    </button>
+                                </div>
+                                <!-- Perfil -->
+                                <div class="col-3 d-flex justify-content-around align-items-center">
+                                    <div class=" d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/icons_header/perfil.svg" alt="" class="perfil__general">
+                                    </div>
+                                    <div class=" d-flex justify-content-center align-items-center">
+                                        <button class="boton__logout__general">Logout</button>
+                                    </div>
+                                    <div class=" d-flex justify-content-center align-items-center">
+                                        <img src="assets/images/icons_header/puntos.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Fin header top -->
+        <!-- Menú -->
+        <section>
+            <div class="header-mid container-fluid">
+                    <div class="row justify-content-center contenedor__mid__general">
+                        <div class="col-11">
+                            <div class="row contenedor__menu__general mt-4">
+                                <div class="col-7 d-flex justify-content-between align-items-center p-0">
+                                    <a href="" class="d-flex justify-content-center align-items-center contenedor__menu__opcion ">
+                                        <img src="assets/images/icons_menu/dashboard.svg" alt="">
+                                        <p class="contenedor__opcion__p">Dashboard</p>
+                                    </a>
+                                    <a href="" class="d-flex justify-content-center align-items-center contenedor__menu__opcion active__opcion">
+                                        <img src="assets/images/icons_menu/ventas.svg" alt="">
+                                        <p class="contenedor__opcion__p">Ventas</p>
+                                    </a>
+                                    <a href="" class="d-flex justify-content-center align-items-center contenedor__menu__opcion">
+                                        <img src="assets/images/icons_menu/icono__pedidos__dos.svg" alt="" class="pedidos__dos">
+                                        <p class="contenedor__opcion__p">Pedidos</p>
+                                        <span class="nuevos__pedidos"></span>
+                                    </a>
+                                    <a href="" class="d-flex justify-content-center align-items-center contenedor__menu__opcion">
+                                        <img src="assets/images/icons_menu/productos.svg" alt="">
+                                        <p class="contenedor__opcion__p">Productos</p>
+                                    </a>
+                                    <a href="" class="d-flex justify-content-center align-items-center contenedor__menu__opcion">
+                                        <img src="assets/images/icons_menu/mesas.svg" alt="">
+                                        <p class="contenedor__opcion__p">Mesas</p>
+                                    </a>
+                                    <a href="" class="d-flex justify-content-center align-items-center contenedor__menu__opcion">
+                                        <img src="assets/images/icons_menu/personal.svg" alt="">
+                                        <p class="contenedor__opcion__p">Personal</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- Fin menú -->
+    </header>
+    <main class="container-fluid">
+        <section class="row justify-content-center">
+            <div class="col-11">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="row contenedor__fechas">
+                            <div class="col-9 d-flex justify-content-end align-items-center contenedor__botones__mes">
+                                <button class="boton border__active">
+                                    HOY
+                                </button>
+                                <button class="boton">
+                                    ESTA SEMANA
+                                </button>
+                                <button class="boton">
+                                    ESTE MES
+                                </button>
+                            </div>
+                            <div class="col-3 d-flex justify-content-start align-items-center contenedor__input">
+                                <input type="text" placeholder="Introduce la fecha" class="input__calendario">
+                                <div class="contenedor__img_calendario d-flex justify-content-center align-items-center">
+                                    <img src="assets/images/icons_general/calendario.svg" alt="calendario">
+                                </div>
+                                <div class="contenedor__img__boleta d-flex justify-content-center align-items-center ml-2">
+                                    <img src="assets/images/icons_general/boleta.svg" class="img__boleta">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenedor__tabla">
+                            <div class="contenedor_grl">
+                                <p class="p__resumen__boletas ml-4 mt-1">RESUMEN DE BOLETAS</p>
+                                <ul class="fila_principal d-flex align-items-center mt-4">
+                                    <li class="th__producto border__active__tabla">Número de boleta</li>
+                                    <li class="th_codigo">Fecha</li>
+                                    <li class="th_origen">Notas de crédito</li>
+                                    <li class="th_propina">Monto neto</li>
+                                    <li class="th_despacho">Monto IVA</li>
+                                    <li class="th_precio">Monto bruto</li>
+                                </ul>
+                                <ul class="d-flex fila__dos align-items-center uno">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos align-items-center dos">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo ">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio td__active">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos fila__cuatro align-items-center tres fila__active">
+                                    <li class="td__boleta td__active">#4342</li>
+                                    <li class="td__codigo td__active">2/5/2021</li>
+                                    <li class="td__local td__active">Nothing</li>
+                                    <li  class="td__despacho td__active"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina td__active">$1.195.794</li>
+                                    <li class="td__precio td__active">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos align-items-center cuatro">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos fila__seis align-items-center cinco">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos align-items-center seis">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos fila__ocho align-items-center siete">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos align-items-center ocho">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                                <ul class="d-flex fila__dos fila__ align-items-center nueve">
+                                    <li class="td__boleta">#4342</li>
+                                    <li class="td__codigo">2/5/2021</li>
+                                    <li class="td__local">Nothing</li>
+                                    <li  class="td__despacho"><div class="circulo"></div>$100</li>
+                                    <li class="td__propina">$1.195.794</li>
+                                    <li class="td__precio">$1.195.794</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row contenedor__novedades justify-content-center">
+                            <div class="col-10">
+                                <div class="mt-4">
+                                    <img src="assets/images/icons_general/cielo.svg" class="img__cielo">
+                                    <img src="assets/images/icons_general/icono__delivery.svg" class="icono__delivery">
+                                    <img src="assets/images/icons_general/rulitos.svg" class="rulitos">
+                                </div>
+                                <div class="mt-4">
+                                    <p class="titulo__novedades">Mirá estas Novedades
+                                        <br>
+                                        <span class="p__nombre">Jeremy!</span>
+                                    </p>
+                                </div>
+                                <p class="p__lorem mt-3">
+                                    Lorem ipsum dolor sit amet,
+                                    <br>
+                                    sadipscing elitr, sed diam
+                                    <br>
+                                    nonumy eirmod tempor
+                                    <br>
+                                    invidunt ut labore et dolore
+                                    <br>
+                                    magna aliquyam erat, sed
+                                    <br>
+                                    diam voluptua. At vero eos
+                                    <br>
+                                    et accusam et justo duo
+                                    <br>
+                                    dolores et ea rebum. Stet
+                                    <br>
+                                    clita kasd gubergren, no sea
+                                    <br>
+                                    takimata sanctus est Lorem
+                                    <br>
+                                    ipsum dolor sit amet. Lorem
+                                    <br>
+                                    ipsum dolor sit amet,
+                                    <br>
+                                    consetetur sadipscing elitr,
+                                    <br>
+                                    sed diam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row justify-content-center contenedor__derechos--reservados">
+                <div class="col-11 contenedor__derechos">
+                    <p class="p_deliveryeasy">Deliveryeasy</p>
+                    <p class="p_derechos mt-1">2021 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </section>
+        <div class="contenedor__absoluto__boleta d-flex justify-content-center align-items-center">
+            <div class="transparencia d-flex flex-column justify-content-center align-items-center">
+                <img src="assets/images/icons_general/icono__factura.svg" alt="">
+                <p class="boleta__p">Boletas</p>
+            </div>
+        </div>
+        
+    </main>
+                                        
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+.contenedor__fechas {
+    width: 98%;
+    height: 45px;
+    border-radius: 15px 15px 0px 0px;
+    background: #FFFFFF;
+    position: relative;
+    top: -90px;
+}
+.boton {
+    height: 25px;
+    background: none;
+    border: none;
+    margin-left: 30px;
+    color: #2E4765;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.border__active::before {
+  content: '';
+  position: absolute;
+  top: 33px;
+  width: 35px;
+  height:4px;
+  background: #2E4DD4;
+  border-radius: 8px 8px 8px 8px;
+}
+.input__calendario {
+    background: #E7EEFC;
+    height: 30px;
+    width: 148px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+}
+input::placeholder {
+    font-size: 11px;
+    color: #17335B;
+    opacity: 60%;
+    padding-left: 14px;
+}
+.contenedor__img_calendario {
+    background: #2E4DD4;
+    border-radius: 0px 6px 6px 0px;
+    width: 45px;
+    height: 30px;
+}
+.contenedor__img__boleta {
+    background: #2E4DD4;
+    border-radius: 6px 6px 6px 6px;
+    width: 45px;
+    height: 30px;
+}
+.img__boleta {
+    width: 15px;
+    height: 17px;
+}
+ul {
+    list-style: none;
+}
+.p__resumen__boletas {
+    color: #0E294A;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.contenedor__tabla {
+    width: 98%;
+    height: 46rem;
+    position: relative;
+    top: -83px;
+    left:-15px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 15px 15px;
+}
+.fila_principal {
+    background-color: rgb(76, 102, 218, 0.3);
+    width: 96%;
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 15px;
+    color: #2E4765;
+    font-weight: 500;
+}
+.contenedor_grl {
+    position: relative;
+    top: 20px;
+} 
+.th__producto,.th_codigo,.th_origen,.th_despacho,.th_propina,.th_precio {
+    font-size: 13px;
+}
+.th__producto,.th_codigo,.th_origen,.th_despacho,.th_propina,.th_precio,.td__precio,.td__propina,.td__despacho,.td__local,.td__codigo,.td__boleta{
+    position: relative;
+}
+.th__producto {
+    left: 5px;
+}
+.th_codigo {
+    left: 10rem;
+}
+.th_precio {
+    left:52rem;
+}
+.th_propina {
+    left:31rem;
+}
+.th_despacho {
+    left:42rem;
+}
+.th_origen {
+    left:20rem;
+}
+.td__precio {
+    left: 66.8rem;
+}
+.td__propina {
+    left:55.8rem;
+}
+.td__despacho {
+    left: 42rem;
+}
+.td__local {
+    left: 25.5rem;
+}
+.td__codigo {
+    left: 16rem;
+}
+.td__boleta {
+    left: 0.5rem;
+}
+.td__codigo,.td__despacho,.td__propina,.td__precio,.td__local,.td__boleta {
+ color: #91919C;
+ font-size: 11px;
+}
+.circulo {
+    background: #DCDCE0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    position: absolute;
+    top: 4px;
+    left: -15px;
+}
+.circulo__active {
+    background: #2E4DD4;
+}
+.fila__dos {
+    height: 40px;
+    box-shadow: #0000000D 0px 3px 6px;
+    width: 96%;     
+    position: relative;
+    left: 15px;
+}
+.uno, .tres, .cinco ,.siete, .nueve {
+    background: rgb(243, 245, 250,0.3);
+}
+.fila__active {
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    height: 50px;
+    width: 97%;
+    position: relative;
+    left: 12px;
+    box-shadow: rgb(145, 145, 156, 0.3) 0px 3px 6px;
+}
+.td__active {
+    color: #2E4DD4;
+    font-weight: 500;
+}
+.border__active__tabla::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 1px;
+    width: 35px;
+    height:4px;
+    background: #2E4DD4;
+    border-radius: 8px 8px 8px 8px;  
+}
+.contenedor__novedades {
+    width: 100%;
+    height: 50rem;
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    top: -90px;
+    left: -40px;
+    box-shadow: #00000029 0px 3px 6px;
+    height: ;
+}
+.icono__delivery {
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+    width: 100px;
+}
+.rulitos {
+    position: absolute;
+    top: 14rem;
+    left: 2rem;
+}
+.img__cielo {
+    height: 215px;
+}
+.p__lorem {
+    font-size: 12px;
+}
+.titulo__novedades {
+    color: #2E4765;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.p__nombre {
+    color: #2E4765;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pedidos__dos {
+    height: 33px;
+}
+.contenedor__absoluto__boleta {
+    width: 70px;
+    height: 60px;
+    background: #4C66DA;
+    border-radius: 5px;
+    position: absolute;
+    top: 12rem;
+    left: 17.7rem;
+}
+.boleta__p {
+    color: #FFFFFF;
+}
+.contenedor__derechos--reservados {
+    position: relative;
+    top: -5rem;
+}
+
+.p_deliveryeasy {
+    color: #9BA0A5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.p_derechos {
+    color: #9BA0A5;
+    font-size: 13px;
+    font-weight: lighter; 
+}

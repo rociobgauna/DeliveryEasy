@@ -1,0 +1,526 @@
+
+body{
+    background-color: #F5F6FA;
+    height: 1300px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.contenedor__bodyTop__general{
+    background-color: transparent;
+    color: #2E4765;
+    position: absolute;
+    width: 100%;
+    top: 220px;
+}
+.contenedor__general{
+    border-radius: 8px 8px 0px 0px;
+}
+.row__bodyTop{
+    display: flex;
+    justify-content: center;
+}
+.contenedor__menuTop__general{
+    height: 100%;
+}
+.contenedor__menuTop__opciones{
+    height: 100%;
+}
+.contenedor__menuTop__opcion{
+    color: #2E4765;
+    text-decoration: none;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    background-color: #fff;
+}
+.menuTop__img{
+    height: 20px;
+    margin-right: 5px;
+}
+.pendientes__contenedor{
+    background-color: #F9B071;
+    border-radius: 50%;
+    min-width: 20px;
+    margin-bottom: 1rem;
+}
+.pendientes__p{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+}
+.cocina__contenedor{
+    background-color: #FED389;
+    border-radius: 50%;
+    min-width: 20px;
+    margin-bottom: 1rem;
+}
+.pedidoListo__contenedor{
+    background-color: #B9B9FD;
+    border-radius: 50%;
+    min-width: 20px;
+    margin-bottom: 1rem;
+}
+.enCamino__contenedor{
+    background-color: #9FD4FD;
+    border-radius: 50%;
+    min-width: 20px;
+    margin-bottom: 1rem;
+}
+.recibido__contenedor{
+    background-color: #66D8AD;
+    border-radius: 50%;
+    min-width: 20px;
+    margin-bottom: 1rem; 
+}
+.cancelados__contenedor{
+    background-color: #FF7777;
+    border-radius: 50%;
+    min-width: 20px;
+    margin-bottom: 1rem; 
+}
+.contenedor__rappi{
+    width: 70%;
+}
+.contendor__opcion__p1{
+    font-family: 'Poppins Medium';
+    font-size: 14px;
+    margin-left: 5px;
+}
+/* Menu contenedor before */
+.contenedor__opcion__p1:before{
+    content: "";
+    height: 4px;
+    width: 30px;
+    border-radius: 8px;
+    background-color: #2E4DD4;
+    display: block;
+    position: relative;
+    bottom: -25px;
+}
+.contenedor__opcion__p1:before{
+    display: none;
+}
+.inputs__img{
+    height: 20px;
+    margin-left: 10px;
+}
+/* .contenedor__bodyTop{
+    position: absolute;
+    width: 100%;
+} */
+.contenedor__top__principal{
+    background-color: rgba(46, 77, 212, 0.9);
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+.botones__menu{
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.active__barrita:before{
+    content: "";
+    height: 4px;
+    width: 40%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+}
+.active__secciones{
+    margin-right: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+.disable__left{
+    border-radius: 5px 0px 0px 0px;
+}
+.disable__right{
+    border-radius: 0px 5px 0px 0px;
+}
+.active__secciones:before{
+    content: "";
+    height: 4px;
+    width: 2%;
+    border-radius: 8px;
+    background-color: #2E4DD4;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 35px;
+}
+.active__secciones1::after{
+    content: "";
+    height: 15px;
+    width: calc(10% + 3px);
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+.contenedor__top{
+    min-height: 60px;
+}
+.contenedor__input__top{
+    background-color: #F5F6FA;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+.input__top{
+    min-height: 34px;
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+    width: 100%;
+    color: rgba(23, 51, 91, 0.7);
+    background-color: transparent;
+}
+.borde__secciones{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    height: 100%;
+    min-height: 40px;
+}
+.borde__secciones__gris{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    min-height: 50px;
+}
+.borde__secciones__gris__detalle{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    min-height: 50px;
+}
+.secciones__p{
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 600; 
+}
+.estandar__p{
+    font-size: 14px;
+    font-family: 'Poppins Light';
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+/* Body */
+.contenedor__info__general__gris{
+    background-color: rgba(243, 245, 250, 0.3);
+}
+.contenedor__info__general__gris{
+    background-color: rgb(255, 255, 255);
+}
+.botones__body{
+    width: 160px;
+    min-height: 65px;
+    text-decoration: none;
+    box-shadow: 0px 3px 6px #0000000D;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    padding: 0px 0px;
+}
+.boton__rojo{
+    background-color: #FF7777;
+}
+.boton__verde{
+    background-color: #66D8AD;
+}
+.boton__celeste{
+    background-color: #9FD4FD;
+}
+.boton__naranja{
+    background-color: #F9B071;
+}
+.boton__verdeClaro{
+    background-color: #9ED8C3;
+}
+.boton__violeta{
+    background-color: #B9B9FD;
+}
+.boton__amarillo{
+    background-color: #FED389;
+}
+.boton__gris{
+    background-color: rgba(155, 160, 165, 0.26);
+}
+.numeroSector__p{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+.sector__P{
+    font-family: 'Poppins Medium';
+    font-size: 16px;
+    color: #fff;
+}
+.contenedor__info__rojo{
+    background-color: #FF7777;
+    border-radius: 0px 0px 0px 10px;
+}
+.contenedor__info__celeste{
+    background-color: #9FD4FD;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.contenedor__info__naranja{
+    background-color: #F9B071;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.contenedor__info__verde{
+    background-color: #66D8AD;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.contenedor__info__verdeClaro{
+    background-color: #9ED8C3;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.contenedor__info__gris{
+    background-color: rgba(155, 160, 165, 0.26);
+    border-radius: 0px 0px 0px 10px;
+
+}
+.contenedor__info__violeta{
+    background-color: #B9B9FD;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.contenedor__info__amarillo{
+    background-color: #FED389;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.row__info__principal{
+    width: 100%;
+    box-shadow: 0px 3px 6px #0000000D;
+    border-radius: 0px 0px 0px 10px;
+    height: calc(100% + 2px);
+}
+.contenedor__bodyInfo__img{
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0px 0px 10px 10px;
+}
+/*  */
+.detalles__viendo{
+    font-family: 'Poppins Light';
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+}
+.detalles__p{
+    font-family: 'Poppins';
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 5px;
+}
+.numSector__p{
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+}
+.sector__p{
+    font-family: 'Poppins Light';
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 15px; 
+}
+.titulo__detalle__p{
+    font-family: 'Poppins Medium';
+    color: #2E4765;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+}
+.descripcion__detalle__p{
+    font-family: 'Poppins Light';
+    color: #2E4765;
+    font-size: 12px;
+    text-align: left;
+}
+.estado__detalle__p{
+    font-family: 'Poppins';
+    color: #FED389;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 600;  
+}
+.total__detalle__p{
+    font-family: 'Poppins';
+    color: #2E4765;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+}
+.total__ventas{
+    font-family: 'Poppins Medium';
+    font-size: 16px;
+    text-align: left;
+    color: #2E4DD4;
+}
+.total__sumaVentas{
+    font-family: 'Poppins Medium';
+    font-size: 16px;
+    text-align: left;
+    color: #00BF78;
+}
+.total__deltaDiferencias{
+    font-family: 'Poppins Medium';
+    font-size: 16px;
+    text-align: left;
+    color: #915EDF;
+}
+.ventas__p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+.detalleVenta__p{
+    font-family: 'Poppins Light';
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.horaEntrada__p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E4765;
+}
+.horaSalida__p{
+    font-size: 12px;
+    color: #2E4765;
+}
+.numero__p{
+    font-family: 'Poppins SemiBold';
+    font-size: 14px;
+    margin-left: 2px;
+}
+/* Cols personalizados */
+.col-1-personalizado{
+    max-width: 142.5px;
+}
+.col-1-personalizado2{
+    max-width: 142.3px;
+}
+.col-8-personalizado{
+    max-width: 1140px;
+}
+.col-8-personalizado2{
+    max-width: 1138.6px;
+}
+.col-2-personalizado{
+    max-width: 285px;
+}
+.col-3-personalizado{
+    max-width: 427.5px;
+}
+.col-3-personalizado2{
+    max-width: 426.9px;
+}
+.col-11-personalizado{
+    max-width: 1710px;
+}
+/*  */
+.row__columas__ventas{
+    width: 100%;
+}
+.row__botones__top{
+    width: 100%;
+}
+.contenedor__detalles__altura{
+    min-height: 129px;
+}
+.shadowBox{
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: rgba(243, 245, 250, 0.3);
+}
+.shadowBox__blanco{
+    box-shadow: 0px 3px 6px #00000014;
+    background-color: rgba(255, 255, 255);
+}
+.imgs__botones{
+    margin-right: 10px;
+}
+.contenedor__body__principal{
+    background-color: #fff;
+    height: calc(100% + 50px);
+    padding-bottom: 50px;
+    position: relative;
+}
+.contenedor__filas__principal{
+    top: 20px;
+    position: relative;
+}
+.barra__blanca{
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra__azul{
+    background-color: #4C66DA;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    height: 8px;
+    width: 15%;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.nuevos__pedidos{
+    background-color: #31B10A;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.active__opcion{
+    background-color: rgba(255, 255, 255, 0.14);
+}
